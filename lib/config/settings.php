@@ -13,7 +13,7 @@ return array(
                         . '{$description} - описание скидки<br/>'
                         . '{$discount_percentage} - скидка в процентах<br/>'
                         . '{$discount} - скидка в денежных единицах<br/>'
-                        . '{$discount_percentage} - валюта скидки<br/>'
+                        . '{$discount_currency} - валюта скидки<br/>'
                         . '{$affiliate_percentage} - бонусы в процентах<br/>'
                         . '{$affiliate} - скидка в бонусах',
         'value'        => '',
