@@ -22,7 +22,8 @@ class shopHeaderPlugin extends shopPlugin
                             $coupon = $coupon_plugin->getCoupon($coupon_id);
                             // Проверяем наличие купонов у правил скидок
                             if ($coupon && shopFlexdiscountHelper::getCouponStatus($coupon) > 0) {
-                               $coupon_cnt++;
+                                $rule['coupon'] = $coupon;
+                                $coupon_cnt++;
                             }
                         }
                     }

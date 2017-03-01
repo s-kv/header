@@ -15,7 +15,8 @@ return array(
                         . '{$discount} - скидка в денежных единицах<br/>'
                         . '{$discount_currency} - валюта скидки<br/>'
                         . '{$affiliate_percentage} - бонусы в процентах<br/>'
-                        . '{$affiliate} - скидка в бонусах',
+                        . '{$affiliate} - скидка в бонусах<br/>'
+                        . '{$coupon.code} - код активного купона',
         'value'        => '',
         'control_type' => waHtmlControl::TEXTAREA,
     ),
